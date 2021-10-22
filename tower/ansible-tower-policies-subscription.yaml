@@ -10,7 +10,7 @@ metadata:
   name: tower-resource-operator
   namespace: tower-policies
   annotations:
-    apps.open-cluster-management.io/github-path: hack/manifests/policies
+    apps.open-cluster-management.io/github-path: tower/policies
 spec:
   type: GitHub
   pathname: https://github.com/apoczekalewicz/acm-policies.git
@@ -39,7 +39,7 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: main
-    apps.open-cluster-management.io/github-path: tower/manifests/policies
+    apps.open-cluster-management.io/github-path: tower/policies
   name: tower-resource-operator
   namespace: tower-policies
   labels:
