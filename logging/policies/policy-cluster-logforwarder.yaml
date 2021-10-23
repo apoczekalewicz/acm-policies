@@ -76,7 +76,7 @@ spec:
       type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - key: logs
+      - key: remotelogs
         operator: In
         values:
           - remote
