@@ -9,6 +9,9 @@ kind: Channel
 metadata:
   name: acm-policies
   namespace: acm-policies
+  annotations:
+    apps.open-cluster-management.io/reconcile-rate: low
+
 spec:
   type: GitHub
   pathname: https://github.com/apoczekalewicz/acm-policies.git
