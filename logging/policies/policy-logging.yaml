@@ -228,5 +228,5 @@ spec:
       type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - {key: logi, operator: In, values: ["true"]}
+      - {key: logs, operator: In, values: ["true"]}
 
